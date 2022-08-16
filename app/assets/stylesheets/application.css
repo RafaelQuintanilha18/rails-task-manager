@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+ .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+
+ .newbox {
+  margin-top: 20px;
+  margin-bottom: 30px;
+ }
+
+ #formButton {
+  margin-top: 20px;
+ }
+
+ .list-group-item a {
+  text-decoration: none !important;
+  color: black;
+  text-align: left;
+ }
+
+ .showButtons {
+  margin-right: 25px;
+ }
+
+ .h2 {
+  margin-top: 25px;
+ }
